@@ -16,7 +16,7 @@ export const ArticlesContainer = styled.div`
     justify-content: center;
 `;
 
-export const ArticleTitle = styled.h2`
+export const ArticleTitle = styled.a`
     font-size: 1.5em;
     margin-bottom: 8px;
     color: #f0f0f0ff;

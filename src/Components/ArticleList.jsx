@@ -15,7 +15,7 @@ export default class ArticleList extends Component {
         });
         this.setState({ articles: response.data.hits.map(article => (
             <ItemContainer key={article.objectID}>
-                <a href={article.url}><ArticleTitle>{article.title}</ArticleTitle></a>
+                <ArticleTitle href={article.url}>{article.title}</ArticleTitle>
                 <p>Author: {article.author}</p>
                 <p>Points: {article.points}</p>
                 <p>Comments: {article.num_comments}</p>
