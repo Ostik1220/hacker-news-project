@@ -2,7 +2,7 @@ import { Component } from "react";
 import axios from "axios";
 import { ArticlesContainer, ItemContainer, ArticleTitle } from "./ArticleList.styled.jsx";
 
-const url = "http://hn.algolia.com/api/v1/search_by_date?tags=story";
+const url = "https://hn.algolia.com/api/v1/search_by_date?tags=story";
 
 export default class ArticleList extends Component {
  state = {
